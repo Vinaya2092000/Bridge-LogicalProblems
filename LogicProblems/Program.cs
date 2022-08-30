@@ -30,6 +30,10 @@
                     ReverseANumber reverseANumber = new ReverseANumber();
                     reverseANumber.Reverse();   
                     break;
+                case 5:
+                    CouponNumber couponNumber = new CouponNumber();
+                    couponNumber.Coupon();
+                    break;
                 default:
                     break;
             }
