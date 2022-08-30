@@ -34,6 +34,10 @@
                     CouponNumber couponNumber = new CouponNumber();
                     couponNumber.Coupon();
                     break;
+                case 6:
+                    StopWatch stopWatch = new StopWatch();
+                    stopWatch.Watch();
+                    break;
                 default:
                     break;
             }
