@@ -18,7 +18,10 @@
                     Fibonacci fibonacci = new Fibonacci();
                     fibonacci.Series();
                     break;
-
+                case 2:
+                    PerfectNumber perfectNumber = new PerfectNumber();
+                    perfectNumber.Perfect();
+                    break;
                 default:
                     break;
             }
