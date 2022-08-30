@@ -22,6 +22,10 @@
                     PerfectNumber perfectNumber = new PerfectNumber();
                     perfectNumber.Perfect();
                     break;
+                case 3:
+                    PrimeNumber primeNumber = new PrimeNumber();
+                    primeNumber.Prime();    
+                    break;
                 default:
                     break;
             }
