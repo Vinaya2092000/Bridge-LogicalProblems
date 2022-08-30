@@ -14,6 +14,11 @@
             int Prog = Convert.ToInt32(Console.ReadLine());
             switch (Prog)
             {
+                case 1:
+                    Fibonacci fibonacci = new Fibonacci();
+                    fibonacci.Series();
+                    break;
+
                 default:
                     break;
             }
