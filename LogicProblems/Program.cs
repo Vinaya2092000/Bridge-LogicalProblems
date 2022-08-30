@@ -26,6 +26,10 @@
                     PrimeNumber primeNumber = new PrimeNumber();
                     primeNumber.Prime();    
                     break;
+                case 4:
+                    ReverseANumber reverseANumber = new ReverseANumber();
+                    reverseANumber.Reverse();   
+                    break;
                 default:
                     break;
             }
